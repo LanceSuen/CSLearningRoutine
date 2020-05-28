@@ -1,7 +1,7 @@
 # SelfLearningLog
 
 ## Courses
-- [] CS61B
-- [] Computer Architecture - Princeton
+- [ ] CS61B
+- [ ] Computer Architecture - Princeton
 
 ## Projects
