@@ -1,4 +1,4 @@
-# SelfLearningLog
+# My Computer Science Learning Routine and Files.
 
 ## Courses
 - [ ] CS61B
