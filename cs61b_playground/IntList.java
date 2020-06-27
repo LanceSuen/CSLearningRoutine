@@ -21,6 +21,7 @@ public class IntList{
         }
         return p.first;
     }
+    
     public int get(int index){
         if (index == 0){
             return this.first;
