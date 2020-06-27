@@ -21,7 +21,7 @@ public class IntList{
         }
         return p.first;
     }
-    
+
     public int get(int index){
         if (index == 0){
             return this.first;
@@ -31,7 +31,13 @@ public class IntList{
         /** return this.rest.get(index - 1) */
     }
 
-
+    /** Exercise2.2.1 Try to add addfirst method */
+    public void addfirst(int x){
+        IntList temp = new IntList(x, this);
+        this.first = temp.first;
+        this.rest = temp.rest;
+    }
+    
     public static void main(String[] args){
          /**IntList test1; Declaration a varible "L" which is a IntList "pointer". */ 
         /** test1 = new IntList();  keyword "new" will return the address of a new object. */ 
@@ -48,5 +54,7 @@ public class IntList{
         System.out.println(test2.get(1));
         System.out.println(test2.get(2));
         System.out.println(test2.get(3));
+        test2.addfirst(0);
+        System.out.println(test2.get(0));
     }
 }
